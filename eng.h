@@ -105,7 +105,7 @@ void SHA1_Final(SHA1_CTX* context, uint8_t digest[SHA1_DIGEST_SIZE]);
 #endif
 
 #endif /* __SHA1_H */
-/* #define SHA1HANDSOFF  */
+#define SHA1HANDSOFF
 
 #ifdef HAVE_CONFIG_H
 #include "config.h"
