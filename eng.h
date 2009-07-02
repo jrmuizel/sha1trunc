@@ -1,4 +1,8 @@
 /*
+
+A header that implements an easy to include and use sha1 implementation
+By Jeff Muizelaar
+
 SHA-1 in C
 By Steve Reid <sreid@sea-to-sky.net>
 100% Public Domain
