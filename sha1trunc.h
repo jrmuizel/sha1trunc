@@ -291,7 +291,7 @@ static void SHA1_Final(SHA1_CTX* context, uint8_t digest[SHA1_DIGEST_SIZE])
 #endif
 }
 
-static inline unsigned long sum(void *data, int len)
+static inline unsigned int sum(void *data, int len)
 {
     SHA1_CTX sha;
     uint8_t digest[20];
