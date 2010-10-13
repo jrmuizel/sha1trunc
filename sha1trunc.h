@@ -297,7 +297,7 @@ static inline unsigned int sum(void *data, int len)
     uint8_t digest[20];
 
     SHA1_Init(&sha);
-    SHA1_Update(&sha, data, len);
+    SHA1_Update(&sha, (const uint8_t*)data, len);
 
     SHA1_Final(&sha, digest);
     return digest[0] << 24 | digest[1] << 16 | digest[2] << 8 | digest[3];
