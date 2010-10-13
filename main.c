@@ -1,6 +1,6 @@
 #include <string.h>
 #include <stdio.h>
-#include "eng.h"
+#include "sha1trunc.h"
 int main() {
 	char *d = "abc";
 	/*"abc"
